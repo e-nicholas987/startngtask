@@ -1,0 +1,152 @@
+html *{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ADD8E6;
+  padding: 48px 0px;
+  margin: 0px;
+  line-height: 1.5;
+}
+
+
+form {
+margin-top:2rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: U8, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #083e9e;
+  margin: 0;
+
+}
+.logo {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+p {
+  text-align: center;
+  font-family: Karla,sans-serif;
+  font-size: 14px;
+  color: #485568;
+  margin-top: 0;
+}
+
+label {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #4A5568;
+  /* margin-top: 20px;
+  margin-bottom: 4px; */
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px 15px 15px 0px;
+  width: 91.666667%;
+  max-width: 28rem;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  
+  
+}
+
+input, select {
+  background-color: #edf2f7;
+  border: 0px;
+  padding: 1rem;
+  width: 100%;
+  display: block;
+  font-size: 100%;
+  line-height: inherit;
+  border-radius: .25em;
+}
+
+input::placeholder {
+  color: #a0aec0;
+}
+
+label {
+  margin-bottom: .25rem;
+  font-family: sans-serif;
+  font-weight: ;
+  display: inline-block; 
+}
+
+.col{
+  margin-bottom: 2rem;
+}
+
+.submitbttn {
+  text-align: center;
+}
+
+button {
+  background-color: #083e9e;
+  color: white;
+  padding: 20px 110px;
+  width: 100%;
+  border: none;
+  border-radius: 0.75rem 0.75rem 0.75rem 0px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+select {
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-position: 97% 50%;
+  background-position-x: 96%;
+  background-repeat: no-repeat;
+  background-image: url(./images/arrow.svg);
+}
+
+.select-wrapper {
+position:relative;
+
+}
+
+.select-wrapper:after {
+  content: "|";
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  color: #a0aec0;
+  }
+
+.footer {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: .875rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+
+a:hover {
+  color: rgb(179, 179, 179);
+}
+
