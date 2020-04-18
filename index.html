@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/73a4c56df7.js" crossorigin="anonymous"></script>
+
+  <title>Emeka's Profile</title>
+  <style>
+    html>* {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: rgb(29, 48, 87);
+      font-family: "Merriweather", sans-serif;
+      height: 100vh;
+      display: flex;
+      color: rgb(29, 48, 87);
+    }
+
+    div {
+      box-sizing: border-box;
+    }
+
+    .wrapper {
+      padding: 5px;
+      display: flex;
+      height: 820px;
+      min-height: 820px;
+      width: 900px;
+      margin: auto;
+      justify-content: center;
+    }
+
+    .left-container,
+    .right-container {
+      margin: 5px;
+    }
+
+    .left-container {
+      flex-basis: 50%;
+      background: rgb(237, 242, 255);
+      border-radius: 4px;
+      padding: 40px;
+      text-align: center;
+      display: flex;
+      /* align-items: center; */
+      justify-content: center;
+    }
+
+    .right-container {
+      flex-basis: 50%;
+    }
+
+    .right-container-top,
+    .right-container-bottom {
+      border-radius: 4px;
+      background: rgb(237, 242, 255);
+      margin-bottom: 10px;
+      padding: 40px;
+    }
+
+    .right-container-top {
+      height: calc(55% - 5px);
+    }
+
+    .right-container-bottom {
+      height: calc(45% - 5px);
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    img {
+      height: 150px;
+      width: 150px;
+      background-color: white;
+      display: inline-block;
+      border-radius: 100%;
+      margin-bottom: 40px;
+      object-fit: cover;
+    }
+
+    i {
+      font-size: 20px;
+    }
+
+    .bio-data {
+      display: flex;
+    }
+
+    .bio-data-info {
+      margin: 4px;
+      text-align: center;
+      flex-basis: calc(100% / 3);
+    }
+
+    form {
+      padding
+    }
+
+    .label {
+      font-size: 10px;
+    }
+
+    li {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .socials a {
+      color: rgb(29, 48, 87);
+      text-decoration: none;
+      font-size: 40px;
+      
+    }
+
+
+    input {
+      width: 100%;
+      font-family: "Merriweather", sans-serif;
+      padding: 4px;
+      font-size: 100%;
+      margin-top: 4px;
+      border-radius: 4px;
+      border: 0;
+      margin-bottom: 4px;
+      box-sizing: border-box;
+
+
+    }
+
+    label {
+      padding: 2px;
+    }
+
+    textarea {
+      width: 100%;
+      border-radius: 4px;
+      font-family: "Merriweather", sans-serif;
+      font-size: 100%;
+      height: 50px;
+      box-sizing: border-box;
+      border: 0;
+    }
+
+    button {
+      font-family: "Merriweather", sans-serif;
+      font-size: inherit;
+      color: rgb(237, 242, 255);
+      background-color: rgb(29, 48, 87);
+      margin-top: 6px;
+      padding: 10px;
+      border-radius: 4px;
+      border: 0;
+      cursor: pointer;
+
+    }
+
+    .fa-facebook-square,
+    .fa-envelope-square,
+    .fa-twitter-square {
+      font-size: 35px;
+    }
+
+    
+
+    @media only screen and (max-width: 926px) {
+      .wrapper {
+        width: 80%;
+        flex-wrap: wrap;
+      }
+
+      .left-container,
+      .right-container {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+
+      .left-container,
+      .right-container-top,
+      .right-container-bottom {
+        padding: 20px;
+      }
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="left-container">
+      <div class="about-me">
+        <img src="./20200417_161532.png" alt="profile picture" />
+        <h2>Hi,</h2>
+        <p>My name is Nnaemeka Iwuanyanwu, and I am a Lagos based Web Developer. My expertise is in the area of
+          responsive design.</p>
+        <p>Outside of work I have a beautiful wife and a cat. My hobbies include playing chess, working out, drawing, and coding.
+        </p>
+        <p>I'd love to get get to know you, so don’t hesitate to get in touch.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/your.username2222222222"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://twitter.com/Emeka987"><i class="fab fa-twitter-square"></i></i></a>
+          <a href="mailto:i.emeka74@yahoo.com"><i class="fas fa-envelope-square"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-container">
+      <div class="right-container-top">
+        <h2>Bio Data</h2>
+        <ul>
+          <li>Date of birth</li>
+          1-July-1992
+
+          <li>State of origin</li>
+          Imo State
+
+          <li>Address</li>
+          No. 3 Audu Alikai, Aturanshe Gbagada, Lagos State
+
+          <li>Occupation</li>
+          Web Developer
+
+          <li>Slack ID No.</li>
+          UV2JP063S
+
+        </ul>
+      </div>
+
+      <div class="right-container-bottom">
+        <h2>Message Me!</h2>
+        <form action=""></form>
+        <label for="firstname">First Name</label>
+        <input type="text" name="fname" id="fname" placeholder="Type First Name">
+        <label for="lastname">Last Name</label>
+        <input type="lname" name="lname" id="Last name" placeholder="Type Last Name">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" placeholder="Comment here"></textarea>
+        <button>Send Message </button>
+
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
